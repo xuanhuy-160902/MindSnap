@@ -1,80 +1,105 @@
-<h1> Mind Snap Project - Mobile Quiz Application using React Native</h1>
+
+# Mind Snap Project - Mobile Quiz Application using React Native
+
 <img src="https://drive.google.com/uc?export=view&id=1wLhftH1l7rhxCAp3zR2FhmQnxYmDlHiw" alt="Image">
 
-<h1>Installation</h1>
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Demo](#demo)
+4. [Contributing](#contributing)
+5. [Contact](#contact)
 
-<p>To install and set up the project, please follow the steps below:</p>
+### Installation
+<a name="installation"></a>
 
-<ol>
-  <li>Clone the repository using HTTPS by running the following command in your terminal:</li>
-</ol>
+To install and set up the project, please follow the steps below:
 
-<pre><code>git clone https://github.com/03-Software-Development-Project/ApplicationDevelopmentProject03.git</code></pre>
+1. Clone the repository using HTTPS by running the following command in your terminal:
+    
+    ```bash
+    git clone https://github.com/xuanhuy-160902/MindSnap
+    ```
+    
+2. Change your current directory to the project folder:
+    
+    ```bash
+    cd MindSnap
+    ```
+    
+3. Install the project dependencies by running the following command:
+    
+    ```bash
+    npm install
+    ```
+    
+4. Install the CocoaPods dependencies by executing the following command:
+    
+    ```bash
+    npx pod-install ios
+    ```
+    
 
-<ol start="2">
-  <li>Change your current directory to the project folder:</li>
-</ol>
+### Usage
+<a name="usage"></a>
 
-<pre><code>cd ApplicationDevelopmentProject03</code></pre>
+After successfully installing the project, you are now ready to start using it. Follow the steps below to run the application:
 
-<ol start="3">
-  <li>Install the project dependencies by running the following command:</li>
-</ol>
+1. Start the React Native development server by running the following command:
+    
+    ```bash
+    npm start
+    ```
+    
+2. To launch the application on a specific platform, you can use one of the following commands:
+    - For iOS:
+        
+        ```bash
+        npm run ios
+        ```
+        
+    - For Android:
+        
+        ```bash
+        npm run android
+        ```
+        
 
-<pre><code>npm install</code></pre>
+This will build the app and launch it on the respective simulator or connected device.
 
-<ol start="4">
-  <li>Navigate to the iOS directory:</li>
-</ol>
+Enjoy using the application!
 
-<pre><code>cd ios</code></pre>
+### Demo
+<a name="demo"></a>
 
-<ol start="5">
-  <li>Install the CocoaPods dependencies by executing the following command:</li>
-</ol>
+This section serves as a demonstration or mockup for an application. It includes a table with sample email addresses and passwords. These credentials are intended solely for illustrative purposes in the demo and do not represent real user data. It is important to emphasize that these email addresses and passwords are fictional and should not be used for any actual authentication or login purposes. Instead, they are provided to showcase how the application's login system or user registration might work. Please exercise caution and ensure that any real application uses secure and proper authentication mechanisms with actual user data.
 
-<pre><code>npx pod-install</code></pre>
+| email | password |
+| --- | --- |
+| amelia.wilson@gmail.com | 123b122343 |
+| ethan.taylor@gmail.com | 123b12233523 |
+| harper.martinez@gmail.com | 123b1223e |
+| mia.anderson@gmail.com | 123b122334 |
+| elijah.hall@gmail.com | 123b12244453 |
+| charlotte.scott@gmail.com | 12123b12223 |
+| henry.green@gmail.com | 123b125323 |
+| emmajohnson@gmail.com | 1313b1265323 |
+| liamsmith@gmail.com | 123Fb122343 |
+| oliviabrown@gmail.com | 123b12233523 |
+| noahdavis@gmail.com | 123b1223eQQ |
+| avawilson@gmail.com | 123b122334WW |
+| sophiataylor@gmail.com | 123b1263e5323 |
+| jacksonmartinez@gmail.com | 123b12234E3 |
+| aidenanderson@gmail.com | 123b12233F523 |
+| isabellathompson@gmail.com | 12T3b1223eS |
+| lucasgarcia@gmail.com | 123b1C22334 |
 
-<ol start="6">
-  <li>Finally, execute the following command to complete the installation:</li>
-</ol>
+### Contributing
+<a name="contributing"></a>
 
-<pre><code>bundle exec install</code></pre>
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-<h1>Usage</h1>
+### Contact 
+<a name="contact"></a>
 
-<p>After successfully installing the project, you are now ready to start using it. Follow the steps below to run the application:</p>
-
-<ol>
-  <li>Navigate to the project folder in your terminal:</li>
-</ol>
-
-<pre><code>cd [project folder]</code></pre>
-
-<ol start="2">
-  <li>Start the React Native development server by running the following command:</li>
-</ol>
-
-<pre><code>npm start</code></pre>
-
-<p>To launch the application on a specific platform, you can use one of the following commands:</p>
-
-<p>For iOS:</p>
-
-<pre><code>npm run ios</code></pre>
-
-<p>For Android:</p>
-
-<pre><code>npm run android</code></pre>
-
-<p>This will build the app and launch it on the respective simulator or connected device.</p>
-
-<p>Enjoy using the application!</p>
-
-<h1>Contributing</h1>
-
-<p>Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.</p>
-
-<h1>Contact</h1>
-
-<p>If you have any questions or need further assistance, please feel free to reach out to [insert contact information].</p>
+If you have any questions or need further assistance, please feel free to reach out to [insert contact information].
